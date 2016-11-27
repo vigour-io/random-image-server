@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/vigour-io/random-image-server/issues"
   },
-  "homepage": "https://github.com/vigour-io/random-image-server#readme",
-  "dependencies": {
-    "sharp": "^0.16.2"
-  }
+  "homepage": "https://github.com/vigour-io/random-image-server#readme"
 }
