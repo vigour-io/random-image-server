@@ -1,0 +1,23 @@
+{
+  "name": "random-image-server",
+  "version": "0.0.0",
+  "description": "Serves random images for devving",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Vigour",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigour-io/random-image-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vigour-io/random-image-server/issues"
+  },
+  "homepage": "https://github.com/vigour-io/random-image-server#readme",
+  "dependencies": {
+    "sharp": "^0.16.2"
+  }
+}
