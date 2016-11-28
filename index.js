@@ -3,6 +3,10 @@ const files = fs.readdirSync('img')
 const http = require('http')
 const port = process.env.NOW ? 80 : 8888
 
+for (let i = files.length - 1; i >= 0; i--) {
+  if (files[i][0] === '.') files.splice(i, 1)
+}
+
 http.createServer((req, res) => {
   const path = `img/${files[Math.floor(Math.random() * files.length)]}`
   fs.readFile(path, (err, data) => {
